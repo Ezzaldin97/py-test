@@ -1,0 +1,16 @@
+## install pytest using pip or conda..
+pip install pytest
+conda install pytest
+
+## make sure to add test before file's name to be identified by pytest.
+
+## to test specific file
+pytest <file-name>.py
+
+## to test specific function in unit test file
+pytest <file-name>.py::<function-name>
+
+
+## use fixtures decorator to reduce your test functions code by take all repeated code into this decorator.
+## like setup of database for example..
+
